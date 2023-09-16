@@ -1,0 +1,7 @@
+{% extends 'layout.html' %} {% block content %}
+<div class="container">
+  {%for c in content %}
+  <li>{{c}}</li>
+  {%endfor %}
+</div>
+{% endblock %}
